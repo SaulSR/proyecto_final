@@ -1,0 +1,100 @@
+/*Estilos de selectores*/
+body{
+    margin: 0;
+}
+
+header img{
+    height: 100px;
+    padding-left: 20px;
+}
+
+header img:hover{
+    height: 120px;
+}
+
+header{
+   height: 80px;
+   background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   position: fixed;
+   width: 100%;
+
+}
+
+main{
+    background-image: url("https://www.shutterstock.com/image-illustration/black-modern-car-headlights-front-600nw-771184300.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+main h1,p{
+    color: white;
+    margin-top: 0;
+    padding-left: 30px;
+
+}
+
+h1{
+    padding-top: 100px;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px gold; /* */
+    
+}
+
+header a:hover{
+    color:rgb(255, 255, 144);
+}
+/*Estilos de clases*/
+.anclas{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin:25px 15px ;
+}
+
+.principal{
+    background-attachment: fixed;
+
+}
+
+/*Estilos de productos*/
+.producto{
+    width:22%;
+    margin: 60px 60px;
+}
+
+.producto p{
+    margin: 0;
+    padding: 0;
+}
+
+.producto_main p{
+    background-color: #434343;
+}
+
+.producto_main p:hover{
+    color: rgb(255, 255, 144);
+}
+
+.productos{
+    text-align: center;
+}
+
+.producto_header img{
+    width: 100%;
+}
+
+.Figura{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+/*Estilos de Id's*/
